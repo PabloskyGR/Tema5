@@ -70,7 +70,9 @@ public class CuentaCorriente {
 	}
 
 	public void setSaldo(double saldo) {
-		this.saldo = saldo;
+		if (saldo > 0) {
+			this.saldo = saldo;
+		}
 	}
 
 	public String getDni() {

@@ -15,6 +15,7 @@ public class Main {
 		boolean salir = false;
 
 		do {
+			System.out.println();
 			menu();
 			System.out.println("Dime que acción quieres realizar (1 - 4)");
 			opc = sc.nextInt();
@@ -39,6 +40,7 @@ public class Main {
 				break;
 			}
 			case 3: {
+				System.out.println();
 				cc.mostrarInfo();
 				break;
 			}
