@@ -9,7 +9,7 @@ public class CuentaCorriente {
 	public CuentaCorriente(String dni, double saldo) {
 		if (dni != null && !dni.equals("")) {
 			this.dni = dni;
-		}
+		} 
 		if (saldo > 0) {
 			this.saldo = saldo;
 		}

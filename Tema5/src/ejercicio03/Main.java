@@ -28,7 +28,7 @@ public class Main {
 
 		System.out.print("Tus coordenadas son: ");
 		p1.imprime();
-		System.out.println();
+		System.out.println(); 
 
 		System.out.println("Dime cuanto se van a desplazar la 'x' y la 'y': ");
 		dx = sc.nextInt();

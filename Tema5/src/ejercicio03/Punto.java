@@ -17,7 +17,7 @@ public class Punto {
 	public void setXY(int x, int y) {
 		this.x = x;
 		this.y = y;
-	}
+	} 
 
 	public void desplaza(int dx, int dy) {
 		this.x += dx;

@@ -87,7 +87,7 @@ public class Main {
 				System.out.println("Opción no válida");
 				break;
 			}
-
+ 
 		} while (!salir);
 		
 		sc.close();
