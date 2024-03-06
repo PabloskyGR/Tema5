@@ -44,6 +44,7 @@ public class Libro {
 		if (this.prestados > 0) {
 			this.prestados--;
 			this.ejemplares++;
+			existencias = true;
 		}
 
 		return existencias;
@@ -63,12 +64,8 @@ public class Libro {
 		return ejemplares;
 	}
 
-	public void setEjemplares(int ejemplares) {
-		this.ejemplares = ejemplares;
-	}
-
 	public String getTitulo() {
-		return titulo; 
+		return titulo;
 	}
 
 	public String getAutor() {
@@ -78,7 +75,5 @@ public class Libro {
 	public int getPrestados() {
 		return prestados;
 	}
-	
-	
 
 }

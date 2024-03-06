@@ -8,8 +8,8 @@ public class Main {
 
 		Scanner sc = new Scanner(System.in);
 
-		Punto p1;
-		Punto p2;
+		Punto p1 = new Punto(0,0);
+		Punto p2 = new Punto(0,0);
 
 		int x;
 		int y;
@@ -21,8 +21,6 @@ public class Main {
 		System.out.println("Dime las coordenadas 'x' e 'y': ");
 		x = sc.nextInt();
 		y = sc.nextInt();
-
-		p1 = new Punto(x, y);
 
 		p1.setXY(x, y);
 
@@ -44,7 +42,7 @@ public class Main {
 		px = sc.nextInt();
 		py = sc.nextInt();
 
-		p2 = new Punto(px, py);
+		p2.setXY(px, py);
 
 		p1.distancia(p2);
 
